@@ -40,7 +40,7 @@ button {
 .new-task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .new-task-wrapper {
@@ -138,7 +138,7 @@ button {
 }
 
 .task__input {
-  width: 226px
+  width: 226px;
 }
 
 .task__delete-img {
@@ -153,18 +153,18 @@ button {
 
 /* Completed */
 #complete .task__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task__input {
-  display: none
+  display: none;
 }
 
 .task_edit .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task_edit .task__label {
